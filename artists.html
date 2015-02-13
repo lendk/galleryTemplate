@@ -83,8 +83,7 @@
                 <div class="list-group">
                     <a href="#" class="list-group-item active" id="lnkTab1">Artist Name Surname 1</a>
                     <a href="#" class="list-group-item" id="lnkTab2">Artist Name Surname 2</a>
-                    <a href="#" class="list-group-item" id="lnkTab3">Artist Name Surname 3</a>
-                    <a href="#" class="list-group-item" id="lnkTab4">Artist Name Surname 4</a>
+
 
                 </div>
             </div>
@@ -94,22 +93,44 @@
                 <div class="row carousel-holder">
 
                     <div class="col-md-12">
-                        <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div id="carousel" class="carousel slide">
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel" data-slide-to="1"></li>
                                 <li data-target="#carousel" data-slide-to="2"></li>
+                                <li data-target="#carousel" data-slide-to="3"></li>
+                                <li data-target="#carousel" data-slide-to="4"></li>
+                                <li data-target="#carousel" data-slide-to="5"></li>
+                                <li data-target="#carousel" data-slide-to="6"></li>
+                                <li data-target="#carousel" data-slide-to="7"></li>
+
                             </ol>
                             <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/3/38/Sakinaw_Lake.jpg" alt="">
+                                <div class="item active" data-slide-number="0">
+                                    <img class="slide-image" src="http://www.desicomments.com/dc3/02/222123/222123.jpg" alt="">
                                 </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/3/38/Sakinaw_Lake.jpg" alt="">
+                                <div class="item" data-slide-number="1">
+                                    <img class="slide-image" src="http://www.allartclassic.com/img/Ivan_Constantinovich_Aivazovsky_AII069.jpg" alt="">
                                 </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/3/38/Sakinaw_Lake.jpg" alt="">
+                                <div class="item" data-slide-number="2">
+                                    <img class="slide-image" src="https://usefulpaintingtips.files.wordpress.com/2008/08/pb43.jpg" alt="">
                                 </div>
+                                <div class="item" data-slide-number="3">
+                                    <img class="slide-image" src="http://www.osguide.no/sites/default/files/styles/nodeimage/public/rose.jpg?itok=q9AFj2Rv" alt="">
+                                </div>
+                                <div class="item" data-slide-number="4">
+                                    <img class="slide-image" src="http://sorendahlgaard.com/wp-content/uploads/2011/12/00.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="5">
+                                    <img class="slide-image" src="http://www.artomotor.co.uk/gallery/3.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="6">
+                                    <img class="slide-image" src="http://www.allartclassic.com/img/Jean_Leon_Gerome_GEJ028.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="7">
+                                    <img class="slide-image" src="http://pic.pilpix.com/12/12223/stormy-night-sky-across-the-isa.jpg" alt="">
+                                </div>
+
                             </div>
                             <a class="left carousel-control" href="#carousel" data-slide="prev">
                                 <span class="glyphicon glyphicon-chevron-left"></span>
@@ -119,635 +140,180 @@
                             </a>
                         </div>
                     </div>
+                    <hr>
+                    <div class="col-md-12 hidden-sm hidden-xs" id="slider-thumbs">
+                        <hr>
 
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-header">Biography 1</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae at, officia totam architecto labore pariatur deserunt aliquam voluptatibus, ipsum rerum. Doloribus explicabo, voluptatem quo fugit architecto quae temporibus modi voluptas odit voluptatum nesciunt debitis consectetur reprehenderit incidunt. Sapiente expedita aspernatur, laborum cumque! Totam sit architecto cupiditate harum nesciunt, corporis voluptate!</p>
-                    </div>
-                </div>
-
-
-                <div class="row">
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/3/38/Sakinaw_Lake.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm.</p>
-                                <a href="#" data-toggle="modal" data-target="#artist1modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                        <ul class="list-inline">
+                            <li>
+                                <a id="carousel-selector-0" class="selected ">
+                                    <img src="http://www.desicomments.com/dc3/02/222123/222123.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
-
-                        </div>
-                   
-
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/3/38/Sakinaw_Lake.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist1modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-1">
+                                    <img src="http://www.allartclassic.com/img/Ivan_Constantinovich_Aivazovsky_AII069.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/3/38/Sakinaw_Lake.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist1modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-2">
+                                    <img src="https://usefulpaintingtips.files.wordpress.com/2008/08/pb43.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/3/38/Sakinaw_Lake.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist1modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-3">
+                                    <img src="http://www.osguide.no/sites/default/files/styles/nodeimage/public/rose.jpg?itok=q9AFj2Rv" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/3/38/Sakinaw_Lake.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist1modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-4">
+                                    <img src="http://sorendahlgaard.com/wp-content/uploads/2011/12/00.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/3/38/Sakinaw_Lake.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist1modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-5">
+                                    <img src="http://www.artomotor.co.uk/gallery/3.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-6">
+                                    <img src="http://www.allartclassic.com/img/Jean_Leon_Gerome_GEJ028.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-7">
+                                    <img src="http://pic.pilpix.com/12/12223/stormy-night-sky-across-the-isa.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                        </ul>
 
-                        </div>
                     </div>
-                     <div class="modal fade" id="artist1modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <img class="img-responsive" src="http://upload.wikimedia.org/wikipedia/commons/3/38/Sakinaw_Lake.jpg" alt=""> </div>
 
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="page-header">Biography 1</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolores expedita fuga aut beatae nesciunt est illo vitae mollitia, in ad eveniet, iusto fugiat accusantium alias repellat non laborum minima amet sit eum libero molestiae porro. Cumque, neque! Beatae ullam ut nostrum vero quibusdam officia sed tenetur sint voluptate illum perferendis obcaecati aspernatur repellendus temporibus qui nam, voluptatem nemo deleniti laudantium neque, provident! Ipsum soluta a, nulla eligendi odit facilis fugiat quisquam iste optio voluptatem accusantium in amet rem officiis aspernatur blanditiis deleniti accusamus doloremque vel enim ipsam harum officia non qui. Et reprehenderit consectetur ducimus qui aperiam commodi rerum!</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-                </div>
+                <hr>
 
             </div>
-
-            <!-- Tab 2  -->
+            <!-- TAB 2 -->
             <div class="col-md-9" id="tab2">
 
                 <div class="row carousel-holder">
 
                     <div class="col-md-12">
-                        <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div id="carouselB" class="carousel slide">
                             <ol class="carousel-indicators">
-                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel" data-slide-to="1"></li>
-                                <li data-target="#carousel" data-slide-to="2"></li>
+                                <li data-target="#carouselB" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselB" data-slide-to="1"></li>
+                                <li data-target="#carouselB" data-slide-to="2"></li>
+                                <li data-target="#carouselB" data-slide-to="3"></li>
+                                <li data-target="#carouselB" data-slide-to="4"></li>
+                                <li data-target="#carouselB" data-slide-to="5"></li>
+                                <li data-target="#carouselB" data-slide-to="6"></li>
+                                <li data-target="#carouselB" data-slide-to="7"></li>
+
                             </ol>
                             <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/8/8f/Premio_Pr%C3%ADncipe_de_Asturias_2013_de_las_Ciencias_Sociales_Saskia_Sassen._T%C3%A9cnica_Mixta_sobre_lienzo_116_x_81_cm.jpg" alt="">
+                                <div class="item active" data-slide-number="0">
+                                    <img class="slide-image" src="http://www.poderesantapia.com/images/art/fraangelico/lastjudgement/hell1700.jpg" alt="">
                                 </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/8/8f/Premio_Pr%C3%ADncipe_de_Asturias_2013_de_las_Ciencias_Sociales_Saskia_Sassen._T%C3%A9cnica_Mixta_sobre_lienzo_116_x_81_cm.jpg" alt="">
+                                <div class="item" data-slide-number="1">
+                                    <img class="slide-image" src="http://www.allartclassic.com/img/Albert_Bierstadt_BIA064.jpg" alt="">
                                 </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/8/8f/Premio_Pr%C3%ADncipe_de_Asturias_2013_de_las_Ciencias_Sociales_Saskia_Sassen._T%C3%A9cnica_Mixta_sobre_lienzo_116_x_81_cm.jpg" alt="">
+                                <div class="item" data-slide-number="2">
+                                    <img class="slide-image" src="http://www.royal-painting.com/largeimg/Unknown%202/49164-The%20cottage%20guard.jpg" alt="">
                                 </div>
+                                <div class="item" data-slide-number="3">
+                                    <img class="slide-image" src="http://dawatm.com/images/red_heruka_thangka.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="4">
+                                    <img class="slide-image" src="http://www.artetmer.com/uploads/images/oeuvres/18s/CleveleyE/Cleveley%20Elder%20-%20The%20Royal%20George.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="5">
+                                    <img class="slide-image" src="http://www.allartclassic.com/img/Jan_van_Goyen_GOY019.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="6">
+                                    <img class="slide-image" src="http://www.allartclassic.com/img/Jansen_JAN044.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="7">
+                                    <img class="slide-image" src="http://2.bp.blogspot.com/-RtHKdp4oXUM/UBZyIdME9_I/AAAAAAAB1Rs/LfGzK-kEoKY/s1600/Barbara_McCann+-+Tutt'Art@+(36).jpg" alt="">
+                                </div>
+
                             </div>
-                            <a class="left carousel-control" href="#carousel" data-slide="prev">
+                            <a class="left carousel-control" href="#carouselB" data-slide="prev">
                                 <span class="glyphicon glyphicon-chevron-left"></span>
                             </a>
-                            <a class="right carousel-control" href="#carousel" data-slide="next">
+                            <a class="right carousel-control" href="#carouselB" data-slide="next">
                                 <span class="glyphicon glyphicon-chevron-right"></span>
                             </a>
                         </div>
                     </div>
+                    <hr>
+                    <div class="col-md-12 hidden-sm hidden-xs" id="slider-thumbs">
+                        <hr>
 
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-header">Biography 2</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae at, officia totam architecto labore pariatur deserunt aliquam voluptatibus, ipsum rerum. Doloribus explicabo, voluptatem quo fugit architecto quae temporibus modi voluptas odit voluptatum nesciunt debitis consectetur reprehenderit incidunt. Sapiente expedita aspernatur, laborum cumque! Totam sit architecto cupiditate harum nesciunt, corporis voluptate!</p>
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/8/8f/Premio_Pr%C3%ADncipe_de_Asturias_2013_de_las_Ciencias_Sociales_Saskia_Sassen._T%C3%A9cnica_Mixta_sobre_lienzo_116_x_81_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm.</p>
-                                <a href="#" data-toggle="modal" data-target="#artist2modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                        <ul class="list-inline">
+                            <li>
+                                <a id="carousel-selector-0" class="selected">
+                                    <img src="http://www.poderesantapia.com/images/art/fraangelico/lastjudgement/hell1700.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/8/8f/Premio_Pr%C3%ADncipe_de_Asturias_2013_de_las_Ciencias_Sociales_Saskia_Sassen._T%C3%A9cnica_Mixta_sobre_lienzo_116_x_81_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist2modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-1">
+                                    <img src="http://www.allartclassic.com/img/Albert_Bierstadt_BIA064.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/8/8f/Premio_Pr%C3%ADncipe_de_Asturias_2013_de_las_Ciencias_Sociales_Saskia_Sassen._T%C3%A9cnica_Mixta_sobre_lienzo_116_x_81_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist2modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-2">
+                                    <img src="http://www.royal-painting.com/largeimg/Unknown%202/49164-The%20cottage%20guard.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/8/8f/Premio_Pr%C3%ADncipe_de_Asturias_2013_de_las_Ciencias_Sociales_Saskia_Sassen._T%C3%A9cnica_Mixta_sobre_lienzo_116_x_81_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist2modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-3">
+                                    <img src="http://dawatm.com/images/red_heruka_thangka.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/8/8f/Premio_Pr%C3%ADncipe_de_Asturias_2013_de_las_Ciencias_Sociales_Saskia_Sassen._T%C3%A9cnica_Mixta_sobre_lienzo_116_x_81_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist2modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-4">
+                                    <img src="http://www.artetmer.com/uploads/images/oeuvres/18s/CleveleyE/Cleveley%20Elder%20-%20The%20Royal%20George.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/8/8f/Premio_Pr%C3%ADncipe_de_Asturias_2013_de_las_Ciencias_Sociales_Saskia_Sassen._T%C3%A9cnica_Mixta_sobre_lienzo_116_x_81_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist2modal">
-                                <p>
-                                    Full Size    
-                                </p>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-5">
+                                    <img src="http://www.allartclassic.com/img/Jan_van_Goyen_GOY019.jpg" class="img-responsive thumbs selector">
                                 </a>
-                            </div>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-6">
+                                    <img src="http://www.allartclassic.com/img/Jansen_JAN044.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-7">
+                                    <img src="http://2.bp.blogspot.com/-RtHKdp4oXUM/UBZyIdME9_I/AAAAAAAB1Rs/LfGzK-kEoKY/s1600/Barbara_McCann+-+Tutt'Art@+(36).jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                        </ul>
 
-                        </div>
                     </div>
-                     <div class="modal fade" id="artist2modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <img class="img-responsive" src="http://upload.wikimedia.org/wikipedia/commons/8/8f/Premio_Pr%C3%ADncipe_de_Asturias_2013_de_las_Ciencias_Sociales_Saskia_Sassen._T%C3%A9cnica_Mixta_sobre_lienzo_116_x_81_cm.jpg" alt=""> </div>
 
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="page-header">Biography 2</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolores expedita fuga aut beatae nesciunt est illo vitae mollitia, in ad eveniet, iusto fugiat accusantium alias repellat non laborum minima amet sit eum libero molestiae porro. Cumque, neque! Beatae ullam ut nostrum vero quibusdam officia sed tenetur sint voluptate illum perferendis obcaecati aspernatur repellendus temporibus qui nam, voluptatem nemo deleniti laudantium neque, provident! Ipsum soluta a, nulla eligendi odit facilis fugiat quisquam iste optio voluptatem accusantium in amet rem officiis aspernatur blanditiis deleniti accusamus doloremque vel enim ipsam harum officia non qui. Et reprehenderit consectetur ducimus qui aperiam commodi rerum!</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-                </div>
+                <hr>
 
             </div>
 
 
 
-            <!-- Tab 3  -->
-
-
-
-
-
-            <div class="col-md-9" id="tab3">
-
-                <div class="row carousel-holder">
-
-                    <div class="col-md-12">
-                        <div id="carousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel" data-slide-to="1"></li>
-                                <li data-target="#carousel" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/5/5e/De_camping._T%C3%A9cnica_mixta_sobre_tabla._2012._110_x_130_cm.jpg" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/5/5e/De_camping._T%C3%A9cnica_mixta_sobre_tabla._2012._110_x_130_cm.jpg" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/5/5e/De_camping._T%C3%A9cnica_mixta_sobre_tabla._2012._110_x_130_cm.jpg" alt="">
-                                </div>
-                            </div>
-                            <a class="left carousel-control" href="#carousel" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-header">Biography 3
-
-                   
-                </h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae at, officia totam architecto labore pariatur deserunt aliquam voluptatibus, ipsum rerum. Doloribus explicabo, voluptatem quo fugit architecto quae temporibus modi voluptas odit voluptatum nesciunt debitis consectetur reprehenderit incidunt. Sapiente expedita aspernatur, laborum cumque! Totam sit architecto cupiditate harum nesciunt, corporis voluptate!</p>
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/De_camping._T%C3%A9cnica_mixta_sobre_tabla._2012._110_x_130_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm.</p>
-                                 <a href="#" data-toggle="modal" data-target="#artist3modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/De_camping._T%C3%A9cnica_mixta_sobre_tabla._2012._110_x_130_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                 <a href="#" data-toggle="modal" data-target="#artist3modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/De_camping._T%C3%A9cnica_mixta_sobre_tabla._2012._110_x_130_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                 <a href="#" data-toggle="modal" data-target="#artist3modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/De_camping._T%C3%A9cnica_mixta_sobre_tabla._2012._110_x_130_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/De_camping._T%C3%A9cnica_mixta_sobre_tabla._2012._110_x_130_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                 <a href="#" data-toggle="modal" data-target="#artist3modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/5/5e/De_camping._T%C3%A9cnica_mixta_sobre_tabla._2012._110_x_130_cm.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                 <a href="#" data-toggle="modal" data-target="#artist3modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-                     <div class="modal fade" id="artist3modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <img class="img-responsive" src="http://upload.wikimedia.org/wikipedia/commons/5/5e/De_camping._T%C3%A9cnica_mixta_sobre_tabla._2012._110_x_130_cm.jpg" alt=""> </div>
-
-                    </div>
-                </div>
-            </div>
-                </div>
-
-            </div>
-
-            <!-- Tab 4 -->
-            <div class="col-md-9" id="tab4">
-
-                <div class="row carousel-holder">
-
-                    <div class="col-md-12">
-                        <div id="carousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel" data-slide-to="1"></li>
-                                <li data-target="#carousel" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blommor_Knut_Anerud.jpg/800px-Blommor_Knut_Anerud.jpg" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blommor_Knut_Anerud.jpg/800px-Blommor_Knut_Anerud.jpg" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blommor_Knut_Anerud.jpg/800px-Blommor_Knut_Anerud.jpg" alt="">
-                                </div>
-                            </div>
-                            <a class="left carousel-control" href="#carousel" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-header">Biography 4
-
-                   
-                </h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae at, officia totam architecto labore pariatur deserunt aliquam voluptatibus, ipsum rerum. Doloribus explicabo, voluptatem quo fugit architecto quae temporibus modi voluptas odit voluptatum nesciunt debitis consectetur reprehenderit incidunt. Sapiente expedita aspernatur, laborum cumque! Totam sit architecto cupiditate harum nesciunt, corporis voluptate!</p>
-                    </div>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blommor_Knut_Anerud.jpg/800px-Blommor_Knut_Anerud.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm.</p>
-                                <a href="#" data-toggle="modal" data-target="#artist4modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blommor_Knut_Anerud.jpg/800px-Blommor_Knut_Anerud.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist4modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blommor_Knut_Anerud.jpg/800px-Blommor_Knut_Anerud.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist4modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blommor_Knut_Anerud.jpg/800px-Blommor_Knut_Anerud.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist4modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blommor_Knut_Anerud.jpg/800px-Blommor_Knut_Anerud.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist4modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blommor_Knut_Anerud.jpg/800px-Blommor_Knut_Anerud.jpg" alt="">
-                            <div class="caption">
-
-                                <h4><a href="#">Artwork Name</a>
-                                                       </h4>
-                                <p>Dimensions 100x100cm</p>
-                                <a href="#" data-toggle="modal" data-target="#artist4modal">
-                                <p>
-                                    Full Size    
-                                </p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-                      <div class="modal fade" id="artist4modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <img class="img-responsive" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Blommor_Knut_Anerud.jpg/800px-Blommor_Knut_Anerud.jpg" alt=""> </div>
-
-                    </div>
-                </div>
-            </div>
-
-                </div>
-
-            </div>
         </div>
     </div>
     <hr>
@@ -806,9 +372,9 @@
 
     <!-- Script to Activate the Carousel -->
     <script>
-    $('.carousel').carousel({
-        interval: 3000 //changes the speed
-    })
+    /*    $('.carousel').carousel({
+                        interval: 3000 //changes the speed
+                    })*/
     </script>
     <!-- All images are CC and taken from wikimedia -->
 </body>

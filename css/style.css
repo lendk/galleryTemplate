@@ -303,4 +303,15 @@ footer {
     width: 101%;
     opacity: 1;
 }
+.selected img {
+    opacity:0.5;
+}
+.selected2 img {
+    opacity:0.5;
+}
+.thumbs {
+      max-width: 90px;
+    height: 70px;
+    object-fit: cover;
+}
 

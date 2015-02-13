@@ -27,7 +27,7 @@ $(document).ready(function() {
         $("#lnkTab2,#lnkTab1,#lnkTab3").removeClass('active');
     });
     $("[rel='tooltip']").tooltip();
-    /*Slide In/Out effect for img captions*/
+    //Slide In/Out effect for img captions
     $('.thumbnail').hover(
         function() {
             $(this).find('.caption').slideDown(250); //.fadeIn(250)
@@ -36,4 +36,28 @@ $(document).ready(function() {
             $(this).find('.caption').slideUp(250); //.fadeOut(205)
         }
     );
+    $('.carousel').each(function() {
+        $(this).carousel({
+            interval: false
+        });
+    });
+    ///Thumbnail Handler
+    $('[id^=carousel-selector-]').click(function() {
+        var id_selector = $(this).attr("id");
+        var id = id_selector.substr(id_selector.length - 1);
+        id = parseInt(id);
+        $('#carousel,#carouselB').carousel(id);
+        $('[id^=carousel-selector-]').removeClass('selected');
+        $(this).addClass('selected');
+    });
+
+    // AutoUpdate When it slidess
+    $('#carousel,#carouselB').on('slid.bs.carousel', function(e) {
+        var id = $(this).find('.item.active').data('slide-number');
+
+        id = parseInt(id);
+        $('[id^=carousel-selector-]').removeClass('selected');
+        $('[id^=carousel-selector-' + id + ']').addClass('selected');
+    });
+
 });
