@@ -1,5 +1,5 @@
 # galleryTemplate
-##Boostrap Ready , Gallery/Portfolio Temaplte
+##Boostrap Ready , Gallery/Portfolio Template
 
 This theme is a one page gallery/ portfolio theme for Bootstrap created by Lend Kelmendi. This theme features several content sections, a responsive portfolio grid , many sliders for featured work ,contact from etc.
 
