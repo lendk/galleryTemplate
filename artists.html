@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sample Gallery Template">
+    <meta name="author" content="Lend Kelmendi">
+
+    <title>LKC Gallery</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="artistsBody">
+
+    <!-- Navigation -->
+    <header id="nav">
+        <nav class="navbar navbar-fixed-top " role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobmenu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar white"></span>
+                        <span class="icon-bar white"></span>
+                        <span class="icon-bar white"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">WorldArt</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="mobmenu">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="artists.html">Artists</a>
+                        </li>
+                        <li>
+                            <a href="new.html">New Art</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li class='search-wrap'>
+                            <label for='search' class='search-toggle-label'>
+                                <i class='fa fa-search'></i>
+                            </label>
+                            <input type='text' id='search' name='keywords' class='search' />
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <p class="lead">Featured Artists</p>
+                <div class="list-group">
+                    <a href="#" class="list-group-item active" id="lnkTab1">Artist Name Surname 1</a>
+                    <a href="#" class="list-group-item" id="lnkTab2">Artist Name Surname 2</a>
+
+
+                </div>
+            </div>
+            <!-- Tab 1 -->
+            <div class="col-md-9" id="tab1">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="2"></li>
+                                <li data-target="#carousel" data-slide-to="3"></li>
+                                <li data-target="#carousel" data-slide-to="4"></li>
+                                <li data-target="#carousel" data-slide-to="5"></li>
+                                <li data-target="#carousel" data-slide-to="6"></li>
+                                <li data-target="#carousel" data-slide-to="7"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active" data-slide-number="0">
+                                    <img class="slide-image" src="http://www.desicomments.com/dc3/02/222123/222123.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="1">
+                                    <img class="slide-image" src="http://www.allartclassic.com/img/Ivan_Constantinovich_Aivazovsky_AII069.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="2">
+                                    <img class="slide-image" src="https://usefulpaintingtips.files.wordpress.com/2008/08/pb43.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="3">
+                                    <img class="slide-image" src="http://www.osguide.no/sites/default/files/styles/nodeimage/public/rose.jpg?itok=q9AFj2Rv" alt="">
+                                </div>
+                                <div class="item" data-slide-number="4">
+                                    <img class="slide-image" src="http://sorendahlgaard.com/wp-content/uploads/2011/12/00.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="5">
+                                    <img class="slide-image" src="http://www.artomotor.co.uk/gallery/3.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="6">
+                                    <img class="slide-image" src="http://www.allartclassic.com/img/Jean_Leon_Gerome_GEJ028.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="7">
+                                    <img class="slide-image" src="http://pic.pilpix.com/12/12223/stormy-night-sky-across-the-isa.jpg" alt="">
+                                </div>
+
+                            </div>
+                            <a class="left carousel-control" href="#carousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-md-12 hidden-sm hidden-xs" id="slider-thumbs">
+                        <hr>
+
+                        <ul class="list-inline">
+                            <li>
+                                <a id="carousel-selector-0" class="selected ">
+                                    <img src="http://www.desicomments.com/dc3/02/222123/222123.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-1">
+                                    <img src="http://www.allartclassic.com/img/Ivan_Constantinovich_Aivazovsky_AII069.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-2">
+                                    <img src="https://usefulpaintingtips.files.wordpress.com/2008/08/pb43.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-3">
+                                    <img src="http://www.osguide.no/sites/default/files/styles/nodeimage/public/rose.jpg?itok=q9AFj2Rv" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-4">
+                                    <img src="http://sorendahlgaard.com/wp-content/uploads/2011/12/00.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-5">
+                                    <img src="http://www.artomotor.co.uk/gallery/3.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-6">
+                                    <img src="http://www.allartclassic.com/img/Jean_Leon_Gerome_GEJ028.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-7">
+                                    <img src="http://pic.pilpix.com/12/12223/stormy-night-sky-across-the-isa.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="page-header">Biography 1</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolores expedita fuga aut beatae nesciunt est illo vitae mollitia, in ad eveniet, iusto fugiat accusantium alias repellat non laborum minima amet sit eum libero molestiae porro. Cumque, neque! Beatae ullam ut nostrum vero quibusdam officia sed tenetur sint voluptate illum perferendis obcaecati aspernatur repellendus temporibus qui nam, voluptatem nemo deleniti laudantium neque, provident! Ipsum soluta a, nulla eligendi odit facilis fugiat quisquam iste optio voluptatem accusantium in amet rem officiis aspernatur blanditiis deleniti accusamus doloremque vel enim ipsam harum officia non qui. Et reprehenderit consectetur ducimus qui aperiam commodi rerum!</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+            </div>
+            <!-- TAB 2 -->
+            <div class="col-md-9" id="tab2">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carouselB" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselB" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselB" data-slide-to="1"></li>
+                                <li data-target="#carouselB" data-slide-to="2"></li>
+                                <li data-target="#carouselB" data-slide-to="3"></li>
+                                <li data-target="#carouselB" data-slide-to="4"></li>
+                                <li data-target="#carouselB" data-slide-to="5"></li>
+                                <li data-target="#carouselB" data-slide-to="6"></li>
+                                <li data-target="#carouselB" data-slide-to="7"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active" data-slide-number="0">
+                                    <img class="slide-image" src="http://www.poderesantapia.com/images/art/fraangelico/lastjudgement/hell1700.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="1">
+                                    <img class="slide-image" src="http://www.allartclassic.com/img/Albert_Bierstadt_BIA064.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="2">
+                                    <img class="slide-image" src="http://www.royal-painting.com/largeimg/Unknown%202/49164-The%20cottage%20guard.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="3">
+                                    <img class="slide-image" src="http://dawatm.com/images/red_heruka_thangka.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="4">
+                                    <img class="slide-image" src="http://www.artetmer.com/uploads/images/oeuvres/18s/CleveleyE/Cleveley%20Elder%20-%20The%20Royal%20George.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="5">
+                                    <img class="slide-image" src="http://www.allartclassic.com/img/Jan_van_Goyen_GOY019.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="6">
+                                    <img class="slide-image" src="http://www.allartclassic.com/img/Jansen_JAN044.jpg" alt="">
+                                </div>
+                                <div class="item" data-slide-number="7">
+                                    <img class="slide-image" src="http://2.bp.blogspot.com/-RtHKdp4oXUM/UBZyIdME9_I/AAAAAAAB1Rs/LfGzK-kEoKY/s1600/Barbara_McCann+-+Tutt'Art@+(36).jpg" alt="">
+                                </div>
+
+                            </div>
+                            <a class="left carousel-control" href="#carouselB" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carouselB" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-md-12 hidden-sm hidden-xs" id="slider-thumbs">
+                        <hr>
+
+                        <ul class="list-inline">
+                            <li>
+                                <a id="carousel-selector-0" class="selected">
+                                    <img src="http://www.poderesantapia.com/images/art/fraangelico/lastjudgement/hell1700.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-1">
+                                    <img src="http://www.allartclassic.com/img/Albert_Bierstadt_BIA064.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-2">
+                                    <img src="http://www.royal-painting.com/largeimg/Unknown%202/49164-The%20cottage%20guard.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-3">
+                                    <img src="http://dawatm.com/images/red_heruka_thangka.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-4">
+                                    <img src="http://www.artetmer.com/uploads/images/oeuvres/18s/CleveleyE/Cleveley%20Elder%20-%20The%20Royal%20George.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-5">
+                                    <img src="http://www.allartclassic.com/img/Jan_van_Goyen_GOY019.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-6">
+                                    <img src="http://www.allartclassic.com/img/Jansen_JAN044.jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                            <li>
+                                <a id="carousel-selector-7">
+                                    <img src="http://2.bp.blogspot.com/-RtHKdp4oXUM/UBZyIdME9_I/AAAAAAAB1Rs/LfGzK-kEoKY/s1600/Barbara_McCann+-+Tutt'Art@+(36).jpg" class="img-responsive thumbs selector">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="page-header">Biography 2</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde dolores expedita fuga aut beatae nesciunt est illo vitae mollitia, in ad eveniet, iusto fugiat accusantium alias repellat non laborum minima amet sit eum libero molestiae porro. Cumque, neque! Beatae ullam ut nostrum vero quibusdam officia sed tenetur sint voluptate illum perferendis obcaecati aspernatur repellendus temporibus qui nam, voluptatem nemo deleniti laudantium neque, provident! Ipsum soluta a, nulla eligendi odit facilis fugiat quisquam iste optio voluptatem accusantium in amet rem officiis aspernatur blanditiis deleniti accusamus doloremque vel enim ipsam harum officia non qui. Et reprehenderit consectetur ducimus qui aperiam commodi rerum!</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted" style="text-align: center">Copyright &copy; Lend Kelmendi</p>
+                    <p style="text-align: center">Sitemap</p>
+                    <nav id="footerNav">
+                        <a href="index.html">Home</a>
+                        <a href="artists.html">Artists</a>
+                        <a href="new.html">New Art</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/jqueryEase.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    /*    $('.carousel').carousel({
+                        interval: 3000 //changes the speed
+                    })*/
+    </script>
+    <!-- All images are CC and taken from wikimedia -->
+</body>
+
+</html>
